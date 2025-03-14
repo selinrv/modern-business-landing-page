@@ -49,7 +49,7 @@ const Footer = () => {
               variants={fadeIn('down', 0.5)}
               className="flex items-center gap-1 mb-6"
             >
-              <div className="w-4 h-4 bg-blue-600 rounded-full opacity-75"></div>
+              <div className="w-4 h-4 bg-yellow-600 rounded-full opacity-75"></div>
               <div className="w-4 h-4 bg-red-500 rounded-full -ml-2"></div>
               <span className="text-xl font-medium ml-1">The Next Design</span>
             </motion.div>

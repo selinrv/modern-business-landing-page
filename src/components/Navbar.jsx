@@ -30,7 +30,7 @@ const Navbar = () => {
         >
           <motion.div 
             whileHover={{ scale: 1.1 }}
-            className="w-4 h-4 bg-blue-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
+            className="w-4 h-4 bg-yellow-600 rounded-full opacity-75 hover:opacity-100 transition-opacity"
           ></motion.div>
           <motion.div 
             whileHover={{ scale: 1.1 }}
