@@ -6,18 +6,18 @@ const FeaturesSection = () => {
   const features = [
     {
       icon: "🔍", 
-      title: "Find out what you need",
-      description: "We present you a proposal and discuss nitty-gritty like"
+      title: "Advocacy & Representation",
+      description: "We safeguard and promote the collective interests of scientists"
     },
     {
       icon: "⚙️",
-      title: "Work out the details", 
-      description: "Communication protocols apart from engagement models"
+      title: "Global Scientific Networking",
+      description: "We facilitate professional connections between early-career researchers and experts"
     },
     {
       icon: "🚀",
-      title: "We get to work fast",
-      description: "Protocols apart from engage models, pricing billing"
+      title: "Comprehensive Support",
+      description: "We provide access to critical scientific and career opportunities, including grants, conferences, research funding"
     }
   ]
 
@@ -27,6 +27,7 @@ const FeaturesSection = () => {
       initial="hidden"
       whileInView="show"
       className="max-w-7xl mx-auto px-4 py-16"
+      id="help"
     >
       <motion.div 
         variants={fadeIn('up', 0.3)}
@@ -36,13 +37,13 @@ const FeaturesSection = () => {
           variants={textVariant(0.2)}
           className="text-3xl font-bold mb-4"
         >
-          How can we help your business?
+          How can we help?
         </motion.h2>
         <motion.p 
           variants={fadeIn('up', 0.4)}
           className="text-gray-600"
         >
-          When you resell besnik, you build trust and increase
+          Main directions of the NGO
         </motion.p>
       </motion.div>
       
@@ -92,14 +93,15 @@ const FeaturesSection = () => {
         variants={fadeIn('up', 0.7)}
         className="text-center mt-12"
       >
-        <motion.button 
+        <motion.button
+          onClick={() => window.location = 'mailto:office@wrtys.org.ua'}
           variants={fadeIn('up', 0.8)}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="bg-blue-600 text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors relative"
+          className="bg-wrtys text-white cursor-pointer px-8 py-3 rounded-full font-medium hover:bg-wrtys transition-colors relative"
         >
           Become a Partner
-          <div className="absolute -z-10 w-full h-full rounded-full bg-blue-600/30 blur-xl top-0 left-0"></div>
+          <div className="absolute -z-10 w-full h-full rounded-full bg-wrtys blur-xl top-0 left-0"></div>
         </motion.button>
       </motion.div>
     </motion.section>

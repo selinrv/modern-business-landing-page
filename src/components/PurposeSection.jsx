@@ -6,12 +6,12 @@ const PurposeSection = () => {
     {
       icon: "🟣", // Replace with your actual icon component or image
       title: "Built for impact",
-      description: "We identify and nurture a truly diverse team of designers, developers and marketers"
+      description: "Accompanying research and development projects in the field of Materials Science and Technologies."
     },
     {
       icon: "🔴", // Replace with your actual icon component or image
-      title: "In sync with you",
-      description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
+      title: "In sync with the world",
+      description: "The integration of Ukrainian science into the European and global scientific community"
     }
   ];
 
@@ -27,7 +27,7 @@ const PurposeSection = () => {
           <motion.div variants={fadeIn('right', 0.3)}>
             <motion.div 
               variants={fadeIn('up', 0.4)}
-              className="text-sm text-purple-600 font-medium mb-2"
+              className="text-sm wrtys-text-600 font-medium mb-2"
             >
               ACHIEVE MORE
             </motion.div>
@@ -35,7 +35,7 @@ const PurposeSection = () => {
               variants={textVariant(0.5)}
               className="text-3xl md:w-4/5 md:text-4xl font-bold text-gray-900"
             >
-              Purpose of a convoy is to keep your team
+              Our Purpose
             </motion.h2>
           </motion.div>
 

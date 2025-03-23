@@ -24,9 +24,8 @@ function App() {
         <FeaturesSection />
         <ScheduleSection />
         <MonitorSection />
-        <PricingSection />
-        <ServicesSection />
-        <TestimonialsSection />
+
+        {/*<TestimonialsSection />*/}
         <NewsletterSection />
         <Footer />
       </div>

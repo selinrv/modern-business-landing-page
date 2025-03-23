@@ -2,6 +2,29 @@
   color: red;
 }
 
+.wrtys-text {
+    color: #288987;
+}
+.wrtys-text::after {
+    background-color: #288987;
+}
+.bg-wrtys-700 {
+    background-color: #0b3d3e;
+}
+.bg-wrtys {
+    background-color: #288987;
+}
+.border-blue-wrtys {
+    border-color: #288987;
+}
+.wrtys-text-600 {
+    font-weight: bold;
+    color: #288987;
+}
+.border-radius-5 {
+    border-radius: 5px;
+}
+
 @keyframes marquee {
     0% {
       transform: translateX(0);

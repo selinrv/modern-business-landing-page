@@ -10,13 +10,13 @@ const NewsletterSection = () => {
         variants={fadeIn('up', 0.2)}
         initial="hidden"
         whileInView="show"
-        className="bg-blue-600 rounded-2xl overflow-hidden"
+        className="bg-wrtys rounded-2xl overflow-hidden"
       >
         <div className="relative md:px-16 px-6 py-16 md:py-24">
           {/* Background Gradient */}
           <motion.div 
             variants={fadeIn('left', 0.4)}
-            className="absolute top-0 right-0 w-1/2 h-full bg-blue-700 clip-path-slant hidden md:block"
+            className="absolute top-0 right-0 w-1/2 h-full bg-wrtys-700 clip-path-slant hidden md:block"
           ></motion.div>
           
           <div className="relative flex flex-col lg:flex-row items-center justify-between gap-8 md:gap-12">
@@ -35,7 +35,7 @@ const NewsletterSection = () => {
                 variants={fadeIn('up', 0.6)}
                 className="text-blue-100 text-sm sm:text-base"
               >
-                Best cooks and best delivery guys all at your service. Hot tasty food
+                Follow our latest news
               </motion.p>
             </motion.div>
 
@@ -58,7 +58,7 @@ const NewsletterSection = () => {
                   variants={fadeIn('left', 0.7)}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full sm:w-auto cursor-pointer bg-green-500 text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-l-none sm:rounded-r-xl hover:bg-green-600 transition-colors flex items-center justify-center sm:justify-start gap-2"
+                  className="w-full sm:w-auto cursor-pointer bg-wrtys text-white px-6 sm:px-8 py-3 sm:py-4 rounded-xl sm:rounded-l-none sm:rounded-r-xl hover:bg-green-600 transition-colors flex items-center justify-center sm:justify-start gap-2"
                 >
                   <span>Discover</span>
                   <HiArrowRight className="w-5 h-5" />
