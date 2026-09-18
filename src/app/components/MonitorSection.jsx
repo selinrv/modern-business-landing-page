@@ -1,8 +1,9 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import 'swiper/css';
 import 'swiper/css/navigation';
-import monitorCardBg from '../assets/ousa-chea-gKUC4TMhOiY-unsplash.jpg';
 
 const MonitorSection = () => {
   return (
@@ -50,7 +51,7 @@ const MonitorSection = () => {
           >
             <motion.img 
               variants={fadeIn('up', 0.5)}
-              src={monitorCardBg}
+              src="/assets/ousa-chea-gKUC4TMhOiY-unsplash.jpg"
               alt="Dashboard statistics"
               className="w-full h-auto rounded-lg border-radius-5"
             />

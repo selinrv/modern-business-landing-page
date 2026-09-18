@@ -1,4 +1,5 @@
-import scheduleImage from '../assets/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg'
+"use client";
+
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 
@@ -18,7 +19,7 @@ const ScheduleSection = () => {
         >
           <motion.img 
             variants={fadeIn('up', 0.4)}
-            src={scheduleImage} 
+            src="/assets/jakob-dalbjorn-cuKJre3nyYc-unsplash.jpg" 
             alt="Statistics dashboard" 
             className="w-full h-auto border-radius-5"
           />

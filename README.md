@@ -1,83 +1,36 @@
-# Modern Business Landing Page
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-![modern-business-landing-page](/src/assets/react-busines-landing-page.png)
+## Getting Started
 
-A sleek and responsive landing page built with React, Tailwind CSS, and Framer Motion animations.
+First, run the development server:
 
-## 🌟 Features
-
-- Modern and clean design
-- Fully responsive layout
-- Smooth animations with Framer Motion
-- Interactive components
-- Testimonials carousel
-- Newsletter subscription form
-- Company logo showcase
-- Pricing calculator
-- Service showcase sections
-
-## 🛠️ Built With
-
-- React.js
-- Tailwind CSS
-- Framer Motion
-- Swiper.js
-- React Icons
-
-## 🚀 Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-1. Clone the repository
-```bash
-git clone https://github.com/saidee-hasan/modern-business-landing-page
-
-cd modern-business-landing-page
-
-
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Start the development server
 ```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-## 📦 Project Structure
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-src/
-├── components/
-│ ├── Navbar.jsx
-│ ├── Hero.jsx
-│ ├── CompanyLogo.jsx
-│ ├── PurposeSection.jsx
-│ ├── FeaturesSection.jsx
-│ ├── ScheduleSection.jsx
-│ ├── MonitorSection.jsx
-│ ├── PricingSection.jsx
-│ ├── ServicesSection.jsx
-│ ├── TestimonialsSection.jsx
-│ ├── NewsletterSection.jsx
-│ └── Footer.jsx
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## 🎨 Customization
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-1. Replace the placeholder images and text with your own content
-2. Update the company logo and testimonials in the `data.js` file
-3. Modify the pricing plans in the `PricingSection.jsx` file
-4. Update the newsletter form in the `NewsletterSection.jsx` file
+## Learn More
 
-## 📝 License
+To learn more about Next.js, take a look at the following resources:
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
+## Deploy on Vercel
 
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

@@ -1,9 +1,10 @@
-import nasu from '../assets/partners/nasu.png'
-import pwi from '../assets/partners/iez.png'
-import plazma from '../assets/partners/logo-b80b685d.png'
 
 const CompanyLogo = () => {
-  const logos = [nasu, pwi, plazma];
+  const logos = [
+    '/assets/partners/nasu.png',
+    '/assets/partners/iez.png',
+    '/assets/partners/logo-b80b685d.png',
+  ];
 
   return (
     <div className="w-full container mx-auto py-20 overflow-hidden flex  flex-col sm:flex-row sm:items-center items-start ">

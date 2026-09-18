@@ -1,8 +1,8 @@
+"use client"; // Must be the absolute first line of code
 import React, { useState } from 'react'
 import { HiMenu, HiX } from 'react-icons/hi'
 import { motion } from "framer-motion";
 import { fadeIn} from "../utils/motion";
-import headerLogo from "../assets/wrtys.jpg";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -30,7 +30,7 @@ const Navbar = () => {
         >
           <motion.img
               variants={fadeIn('up', 0.4)}
-              src={headerLogo}
+              src="/assets/wrtys.jpg"
               alt="Statistics dashboard"
               className="w-full h-auto"
               style={{ maxWidth: "300px" }}

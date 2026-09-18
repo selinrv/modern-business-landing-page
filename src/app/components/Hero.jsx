@@ -1,7 +1,8 @@
+"use client";
+
 import React from 'react'
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
-import heroImage from '../assets/hero-image.png'
 
 const Hero = () => {
   return (
@@ -44,7 +45,7 @@ const Hero = () => {
       >
         <div className="relative">
           <img
-            src={heroImage}
+            src="/assets/hero-image.png"
             alt="Team meeting"
             className="rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300"
           />
