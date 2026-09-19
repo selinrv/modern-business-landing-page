@@ -94,3 +94,8 @@ html {
   opacity: 0.5;
   cursor: not-allowed;
 }
+
+.orcidImg {
+  max-width: 20px;
+  display: inline-block;
+}

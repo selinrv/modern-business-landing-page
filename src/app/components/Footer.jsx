@@ -76,25 +76,23 @@ const Footer = () => {
               >
                 {' '}
               </motion.p>
-              <motion.p
+              <motion.div
                   variants={fadeIn('up', 0.6)}
                   className="text-gray-600 mb-6"
                   style={{ textAlign: 'right'}}
               >
-                <motion.p>
+                <p>
                   Kyiv, Ukraine
-                </motion.p>
-                <motion.p>
+                </p>
+                <p>
                   Kazimir Malevich Str. 11
-                </motion.p>
-                <motion.p>
-                  <motion.a
-                      href={'mailto:office@wrtys.org.ua'}
-                  >
+                </p>
+                <p>
+                  <a href={'mailto:office@wrtys.org.ua'}>
                     office@wrtys.org.ua
-                  </motion.a>
-                </motion.p>
-              </motion.p>
+                  </a>
+                </p>
+              </motion.div>
 
             </div>
           </motion.div>
